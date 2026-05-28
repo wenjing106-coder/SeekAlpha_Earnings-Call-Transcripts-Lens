@@ -101,7 +101,7 @@ Get your key at: [platform.deepseek.com](https://platform.deepseek.com) ($2 top-
 
 ```
 webapp/
-|-- app.py                          Main Streamlit application (v7.1-deepseek)
+|-- app.py                          Main Streamlit application (v7.0-deepseek)
 |-- requirements.txt                Python dependencies
 |-- README.md                       This file
 |-- .gitignore                      Git ignore rules
@@ -132,7 +132,7 @@ webapp/
 
 ```bash
 # Clone the repository
-git clone <repo-url> && cd webapp
+git clone [<repo-url>](https://github.com/wenjing106-coder/SeekAlpha_Earnings-Call-Transcripts-Lens.git) && cd webapp
 
 # Install dependencies (uses CPU-only PyTorch)
 pip install -r requirements.txt
