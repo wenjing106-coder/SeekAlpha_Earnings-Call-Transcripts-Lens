@@ -142,6 +142,7 @@ pip install -r requirements.txt
 
 # 3. Run the Streamlit application
 streamlit run app.py
+```
 
 ### Pro-Tip Additions (Optional but Recommended)
 
@@ -149,6 +150,7 @@ streamlit run app.py
 # (Optional) Create and activate a virtual environment
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
+```
 
 ### Requirements
 
