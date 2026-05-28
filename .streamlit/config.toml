@@ -1,0 +1,55 @@
+# ===========================================================================
+# .streamlit/config.toml — Streamlit Application Configuration
+# ===========================================================================
+#
+# [File Location]
+# Must be placed inside the .streamlit/ folder at the project root.
+# Streamlit automatically reads this file on startup.
+#
+# [TOML Format Overview]
+# TOML is a configuration file format (similar to INI but more standardized).
+# [section] defines a configuration section.
+# key = value defines a specific setting.
+# Strings are wrapped in double quotes.
+#
+# [Full Configuration Reference]
+# https://docs.streamlit.io/develop/api-reference/configuration/config.toml
+# ===========================================================================
+
+# ---------------------------------------------------------------------------
+# [theme] — Application Appearance / Color Scheme
+# ---------------------------------------------------------------------------
+# Defines the color palette so the app looks like a professional financial
+# dashboard rather than the default Streamlit theme.
+[theme]
+# Primary color: used for buttons, sliders, progress bars, and other
+# interactive elements. A professional blue tone.
+primaryColor = "#1E3A5F"
+# Main content area background color (white = clean, professional look).
+backgroundColor = "#ffffff"
+# Sidebar and input widget background (light gray = creates visual hierarchy
+# against the white main background).
+secondaryBackgroundColor = "#f8f9fa"
+# Text color (dark navy = softer than pure black, more professional).
+textColor = "#1E293B"
+# Font family (sans serif = modern, clean appearance).
+font = "sans serif"
+
+# ---------------------------------------------------------------------------
+# [server] — Server Settings
+# ---------------------------------------------------------------------------
+[server]
+# Maximum upload file size in MB.
+# Earnings-call transcripts are typically 50-200 KB; 10 MB is generous and safe.
+maxUploadSize = 10
+# Enable Cross-Site Request Forgery (XSRF) protection.
+# Security best practice: prevents malicious sites from forging user requests.
+enableXsrfProtection = true
+
+# ---------------------------------------------------------------------------
+# [browser] — Browser Behavior Settings
+# ---------------------------------------------------------------------------
+[browser]
+# Whether to send anonymous usage statistics to Streamlit's servers.
+# false = do not send any usage data (protects user privacy).
+gatherUsageStats = false
