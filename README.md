@@ -128,18 +128,27 @@ webapp/
 - Python 3.9+
 - ~2 GB disk space (for model downloads on first run)
 
-### Quick Start
+## Quick Start
+
+Follow these steps to get the application up and running locally:
 
 ```bash
-# Clone the repository
-git clone [<repo-url>](https://github.com/wenjing106-coder/SeekAlpha_Earnings-Call-Transcripts-Lens.git) && cd webapp
+# 1. Clone the repository and navigate into the project directory
+git clone [https://github.com/wenjing106-coder/SeekAlpha_Earnings-Call-Transcripts-Lens.git](https://github.com/wenjing106-coder/SeekAlpha_Earnings-Call-Transcripts-Lens.git)
+cd SeekAlpha_Earnings-Call-Transcripts-Lens
 
-# Install dependencies (uses CPU-only PyTorch)
+# 2. Install dependencies (uses CPU-only PyTorch to save memory)
 pip install -r requirements.txt
 
-# Run the application
+# 3. Run the Streamlit application
 streamlit run app.py
-```
+
+### Pro-Tip Additions (Optional but Recommended)
+
+```bash
+# (Optional) Create and activate a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
 
 ### Requirements
 
