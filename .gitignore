@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# NLTK data (downloaded at runtime)
+nltk_data/
+
+# Model caches (downloaded at runtime)
+.cache/
+
+# Streamlit
+.streamlit/secrets.toml
+# Trigger rebuild 1779261235
